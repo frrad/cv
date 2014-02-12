@@ -1,14 +1,12 @@
-\documentclass[11pt,a4paper,unicode]{moderncv}
+\documentclass[12pt,a4paper,unicode]{moderncv}
 
 % moderncv themes
-\moderncvtheme{classic}                  % optional argument are 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
-%\moderncvtheme[green]{classic}                % idem
+\moderncvtheme{classic}
 
 % character encoding
-\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+\usepackage[utf8]{inputenc}
 
-% adjust the page margins
-\usepackage[scale=0.85]{geometry}
+\usepackage[scale=0.9]{geometry}
 %\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
 %\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
 %\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
@@ -18,23 +16,13 @@
 \definecolor{linkcolour}{rgb}{0,0.2,0.6}			% hyperlinks setup
 \hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
 
-
 \firstname{Frederick}
 \familyname{Robinson}
 
 \address{Los Angeles, CA}
 \phone{321.613.8838}
 \email{frederick.robinson@gmail.com}
-
-
-%\homepage{http://gr.linkedin.com/pub/stefania-dakourou/41/21a/396}%{LinkedIn Profile}}           
-
-
-% to show numerical labels in the bibliography; only useful if you make citations in your resume
-\makeatletter
-\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
-\makeatother
-
+\homepage{linkedin.com/in/frrad}
 
 \nopagenumbers{}                    
 
@@ -42,34 +30,28 @@
 \maketitle
 
 \section{Education}
-\cventry{2012}{Bachelor in Mathematics with Honors}{Northwestern University}{}{}{}  
+%\cventry{years}{degree/job title}{institution/employer}{localization}{grade}{description}
+\cventry{2017}{Doctorate in Mathematics (Expected)}{University of California Los Angeles}{}{}{}  
+\cventry{2012}{Bachelor in Mathematics with Honors}{Northwestern University}{}{3.62 (Major GPA)}{}
+\cvline{ }{\small Robert R. Welland Prize for Outstanding Achievement in Mathematics by a Graduating Senior}
+\cvline{ }{\small Honors thesis on \emph{Persistant Homology} under David Nadler}
 \cventry{2008}{High School Diploma}{}{}{}{} 
 
-\section{Honors and Awards}
-\cvline{2012}{\small Robert R. Welland Prize for Outstanding Achievement in Mathematics by a Graduating Senior}{}{}{}{}
-
-\section{Undergraduate Thesis}
-\cvline{Title}{\emph{Persistent Homology}}
-\cvline{Supervisor}{David Nadler}
-\cvline{Description}{\small An investigation of Persistant Homology: ``an algebraic method for measuring topological features of shapes and functions''} 
 
 \section{Computer skills}
 \cvline{Proficient}{\small Go,  Mathematica, Python}
 \cvline{Basic}{\small Java, C}
 \cvline{Miscellaneous}{\small Windows, Microsoft Office, Linux, \LaTeX}
 
-\section{Qualities}
-\cvline{Personal skills:}{Strong analytical, problem-solving and communication skills, eager to learn and develop new skills}
-\cvline{Experience with:}{ }
-
 \section{Jobs}
-\cventry{2012-2013}{Teaching Assistant}{Description}{}{}{}
+\cventry{2012-2013}{Teaching Assistant}{Conducted recitations for undergraduate classes}{}{}{}
+\cventry{2010}{Physics Programming}{Coded in C leveraging GNU Scientific Library to simulate gravitational waves from intermediate mass ratio inspiral}{}{}{}
 
 
 \section{Research Programs}
-\cventry{Date}{Tropical Geometry}{Description}{}{}{}
-\cventry{Date}{ANT}{Description}{}{}{}
-\cventry{Date}{Indiana REU}{Description}{}{}{}
+\cventry{2010}{Discrete and Continuous Geometry}{Selected for and attended two week research conference at Northwestern University}{}{}{}
+\cventry{2010}{Number Theory Research}{Funded to conduct research on cyclotomic integers under Prof. F. Calegari}{}{}{}
+\cventry{2011}{Indiana University Research Program}{NSF funded project investigating phylogenetics with Prof. E Housworth}{}{}{}
 
 \section{Languages}
 \cvlanguage{English}{Fluent}{}
