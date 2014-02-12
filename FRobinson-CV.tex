@@ -1,24 +1,22 @@
-\documentclass[12pt,a4paper,unicode]{moderncv}
+\documentclass[11pt,a4paper,unicode]{moderncv}
 
-% moderncv themes
 \moderncvtheme{classic}
 
 % character encoding
 \usepackage[utf8]{inputenc}
 
-\usepackage[scale=0.9]{geometry}
+\usepackage[scale=0.85]{geometry}
 %\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
 %\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
 %\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
 
 % Hyperlinks
-\usepackage[unicode]{hyperref}								% to use hyperlinks
-\definecolor{linkcolour}{rgb}{0,0.2,0.6}			% hyperlinks setup
+\usepackage[unicode]{hyperref}                      % to use hyperlinks
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}            % hyperlinks setup
 \hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
 
 \firstname{Frederick}
 \familyname{Robinson}
-
 \address{Los Angeles, CA}
 \phone{321.613.8838}
 \email{frederick.robinson@gmail.com}
@@ -38,27 +36,30 @@
 \cventry{2008}{High School Diploma}{}{}{}{} 
 
 
-\section{Computer skills}
-\cvline{Proficient}{\small Go,  Mathematica, Python}
-\cvline{Basic}{\small Java, C}
-\cvline{Miscellaneous}{\small Windows, Microsoft Office, Linux, \LaTeX}
+\section{Research Programs}
+\cventry{2010}{Discrete and Continuous Geometry}{Selected for and attended two week research conference at Northwestern University}{}{}{}
+\cventry{2010}{Number Theory Research}{Funded to conduct research on cyclotomic integers under Prof. F. Calegari}{}{}{}
+\cventry{2011}{Indiana University Research Program}{NSF funded project investigating phylogenetics with Prof. E Housworth}{}{}{}
+
 
 \section{Jobs}
 \cventry{2012-2013}{Teaching Assistant}{Conducted recitations for undergraduate classes}{}{}{}
 \cventry{2010}{Physics Programming}{Coded in C leveraging GNU Scientific Library to simulate gravitational waves from intermediate mass ratio inspiral}{}{}{}
 
 
-\section{Research Programs}
-\cventry{2010}{Discrete and Continuous Geometry}{Selected for and attended two week research conference at Northwestern University}{}{}{}
-\cventry{2010}{Number Theory Research}{Funded to conduct research on cyclotomic integers under Prof. F. Calegari}{}{}{}
-\cventry{2011}{Indiana University Research Program}{NSF funded project investigating phylogenetics with Prof. E Housworth}{}{}{}
+\section{Computer skills}
+\cvline{Proficient}{Go,  Mathematica, Python}
+\cvline{Basic}{Java, C}
+\cvline{Miscellaneous}{Windows, Microsoft Office, Linux, \LaTeX}
+\cvline{Relevant Course}{Upper-division undergraduate course on algorithms. Greedy optimization, divide and conquer, dynamic programming, network flows, reductions, and randomized algorithms.  Computational tractability (NP-completeness).}
+
 
 \section{Languages}
 \cvlanguage{English}{Fluent}{}
 \cvlanguage{Spanish}{Proficient}{}
 
+
 \nocite{*}
 \bibliographystyle{plain}
 \bibliography{publications} 
-
 \end{document}
