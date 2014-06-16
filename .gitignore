@@ -1,3 +1,4 @@
+*.*~
 *.acn
 *.acr
 *.alg
@@ -6,9 +7,11 @@
 *.blg
 *.dvi
 *.fdb_latexmk
+*.fls
 *.glg
 *.glo
 *.gls
+*.gz(busy)
 *.idx
 *.ilg
 *.ind
@@ -26,13 +29,9 @@
 *.ps
 *.snm
 *.synctex.gz
+*.tdo
 *.toc
 *.vrb
 *.xdy
-*.tdo
-*.gz(busy)
-*.*~
 
 auto
-
-*.fls
