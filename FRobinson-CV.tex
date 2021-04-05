@@ -16,58 +16,76 @@
 \address{}{San Francisco, CA}
 \phone{321.613.8838}
 \email{frederick.robinson@gmail.com}
-\homepage{frrad.com}
 
 
 \nopagenumbers{}                    
 
 \begin{document}
 \vspace*{-6mm}
+\hypersetup{pdftitle={Frederick Robinson}} %% sets title in PDF Metadata
 \maketitle
 \vspace*{-6mm}
 
 \section{Employment}
-\cventry{2014-Present}{Software Engineer}{Google, Inc. - Display Ads}{Remarketing Quality}{}{
+\cventry{2017-present}{Senior Applied Scientist}{Amazon AWS - Interactive Video Service}{Twitch}{}{
 \begin{itemize}
-    \item{End to end development of a real-time bidding system calibrated by offline auction simulation algorithm}
-    \item{Built models to optimize advertiser ROI by learning advertiser-specific bidding strategies.}
-    \item{Implemented offline mapreduce based training pipeline.}
-    \item{Analyzed results using SQL queries over logs data.}
+    \item{Mentored three other applied scientists, helping them improve engineering skills, leading to one being promoted.}
+    \item{Trained, designed, and productionized realtime machine learning model to optimize data center selection for video playback, reducing global video buffering rates by >1\%.}
+    \item{Created streaming fraud detection machine learning system, improving fraud detection by more than 75\% for problematic channels.}
+    \item{Implemented first mathematical-model based method for transcode server configuration, improving server hardware utilization by >5\%.}
+    \item{Wrote production golang code for backend service serving >50k RPS.}
+    \item{Created machine learning system for predicting optimal video player settings.}
+\end{itemize}
+}
+\cventry{2014-2017}{Software Engineer}{Google, Inc. - Display Ads}{Remarketing Quality}{}{
+\begin{itemize}
+    \item{Developed end-to-end real-time bidding system calibrated by offline auction simulation.}
+    \item{Built models to optimized advertiser ROI by learning advertiser-specific bidding strategies.}
+    \item{Implemented offline MapReduce-based training pipeline.}
     \item{Wrote and maintained production pipeline and monitoring.}
-    \item{Enabled additional traffic expansion worth tens of millions in additional yearly revenue.}
+    \item{Enabled additional traffic expansion worth tens of millions in incremental annual revenue.}
+    \item{Trained models to improve CTR on multi-product ads.}
 \end{itemize}
 }
 \cventry{2012-2014}{Teaching Assistant}{University of California, Los Angeles}{}{}{Conducted recitations for undergraduate classes - Calculus, Differential Equations, C++}
-\cventry{2010}{Physics Programming}{Northwestern University}{}{}{Simulated gravitational waves from intermediate mass ratio inspiral using C and GNU Scientific Library}
+
 \section{Education}
-%\cventry{years}{degree/job title}{institution/employer}{localization}{grade}{description}
 \cventry{2014}{Master of Arts in Mathematics}{University of California Los Angeles}{}{}{}
 \cventry{2012}{Bachelor of Arts in Mathematics with Honors}{Northwestern University}{}{}{}
-\cvline{ }{\small Robert R. Welland Prize for Outstanding Achievement in Mathematics by a Graduating Senior}
-\cvline{ }{\small Honors thesis on \emph{Persistent Homology} under David Nadler}
-
 
 \section{Skills}
-\cvline{Languages}{Python, C++, Go, Mathematica}
-\cvline{Technologies}{Mapreduce, Flume, Dremel SQL}
+\cvline{Languages}{
+  Golang,
+  Python,
+  C++
+}
+\cvline{Technologies}{
+  AWS,
+  CDK,
+  Flume,
+  MapReduce,
+  SQL,
+  Spark,
+  Terraform
+}
 \cvline{Skills}{Machine Learning, Data Pipelines}
-
-
 
 \section{Research Experience}
 \cventry{2011}{Indiana University Research Program}{NSF funded project investigating phylogenetics with Prof. E Housworth}{}{}{}
 \cventry{2010}{Number Theory Research}{Researched cyclotomic integers under Prof. F. Calegari funded by NSF grant}{}{}{}
-\cventry{2010}{Discrete and Continuous Geometry}{Selected for and attended two week research conference at Northwestern University}{}{}{}
-
 
 \nocite{*}
 \bibliographystyle{plain}
-\bibliography{publications} 
 
 
-%% \section{Languages}
-%% \cvlanguage{English}{Fluent}{}
-%% \cvlanguage{Spanish}{Proficient}{}
-%% \cvlanguage{Korean}{Conversational}{}
+\begin{thebibliography}{1}
+
+\bibitem{Robinson:2013uq}
+Frederick Robinson and Michael Wurtz.
+\newblock On the magnitudes of some small cyclotomic integers.
+\newblock {\em Acta Arithmetica}, 160(4):317--32, 2013.
+
+\end{thebibliography}
+
 
 \end{document}
