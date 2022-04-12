@@ -1,9 +1,9 @@
-\documentclass[12pt,a4paper,unicode]{moderncv}
+\documentclass[12pt,letterpaper,unicode]{moderncv}
 
 \moderncvtheme{classic}
 \usepackage[utf8]{inputenc}
 
-\usepackage[scale=.85]{geometry}          % smaller number -> text takes more space
+\usepackage[scale=.75]{geometry}          % smaller number -> text takes more space
 \AtBeginDocument{\recomputelengths}
 
 % Hyperlinks
@@ -14,27 +14,27 @@
 \firstname{Frederick}
 \familyname{Robinson}
 \address{}{San Francisco, CA}
-\phone{321.613.8838}
+\phone{(321) 613-8838}
 \email{frederick.robinson@gmail.com}
 
 
 \nopagenumbers{}                    
 
 \begin{document}
-\vspace*{-6mm}
+\vspace*{-7mm}
 \hypersetup{pdftitle={Frederick Robinson}} %% sets title in PDF Metadata
 \maketitle
-\vspace*{-6mm}
+\vspace*{-7mm}
 
 \section{Employment}
-\cventry{2017-present}{Senior Applied Scientist}{Amazon AWS - Interactive Video Service}{Twitch}{}{
+\cventry{2017-2022}{Senior Applied Scientist}{Amazon AWS - Interactive Video Service}{Twitch}{}{
 \begin{itemize}
-    \item{Mentored three other applied scientists, helping them improve engineering skills, leading to one being promoted.}
-    \item{Trained, designed, and productionized realtime machine learning model to optimize data center selection for video playback, reducing global video buffering rates by >1\%.}
-    \item{Created streaming fraud detection machine learning system, improving fraud detection by more than 75\% for problematic channels.}
-    \item{Implemented first mathematical-model based method for transcode server configuration, improving server hardware utilization by >5\%.}
-    \item{Wrote production golang code for backend service serving >50k RPS.}
-    \item{Created machine learning system for predicting optimal video player settings.}
+    \item{Mentored other applied scientists, leading to one being promoted.}
+    \item{Designed, and productionized realtime machine learning model to optimize data center selection for video playback, reducing global video buffering rates by >1\%.} % QoS Predictions
+    \item{Launched new machine learning service for predicting optimal video player settings.} % Zoltar
+    \item{Created streaming fraud detection machine learning system, improving fraud detection by more than 75\% for problematic channels.} % Streaming Viewbots
+    \item{Implemented first mathematical-model based method for transcode server configuration, improving server hardware utilization by >5\%.} % Optimization
+    \item{Wrote production golang code for backend service serving >50k RPS.} % Engineering
 \end{itemize}
 }
 \cventry{2014-2017}{Software Engineer}{Google, Inc. - Display Ads}{Remarketing Quality}{}{
@@ -47,45 +47,18 @@
     \item{Trained models to improve CTR on multi-product ads.}
 \end{itemize}
 }
-\cventry{2012-2014}{Teaching Assistant}{University of California, Los Angeles}{}{}{Conducted recitations for undergraduate classes - Calculus, Differential Equations, C++}
-
-\section{Education}
-\cventry{2014}{Master of Arts in Mathematics}{University of California Los Angeles}{}{}{}
-\cventry{2012}{Bachelor of Arts in Mathematics with Honors}{Northwestern University}{}{}{}
+\cventry{2012-2014}{Teaching Assistant}{University of California, Los Angeles}{}{}{}
 
 \section{Skills}
+\cvline{Skills}{Machine Learning, Data Science, Data Engineering}
 \cvline{Languages}{
   Golang,
   Python,
   C++
 }
-\cvline{Technologies}{
-  AWS,
-  CDK,
-  Flume,
-  MapReduce,
-  SQL,
-  Spark,
-  Terraform
-}
-\cvline{Skills}{Machine Learning, Data Pipelines}
 
-\section{Research Experience}
-\cventry{2011}{Indiana University Research Program}{NSF funded project investigating phylogenetics with Prof. E Housworth}{}{}{}
-\cventry{2010}{Number Theory Research}{Researched cyclotomic integers under Prof. F. Calegari funded by NSF grant}{}{}{}
-
-\nocite{*}
-\bibliographystyle{plain}
-
-
-\begin{thebibliography}{1}
-
-\bibitem{Robinson:2013uq}
-Frederick Robinson and Michael Wurtz.
-\newblock On the magnitudes of some small cyclotomic integers.
-\newblock {\em Acta Arithmetica}, 160(4):317--32, 2013.
-
-\end{thebibliography}
-
+\section{Education}
+\cventry{2014}{Master of Arts in Mathematics}{University of California Los Angeles}{}{}{}
+\cventry{2012}{Bachelor of Arts in Mathematics with Honors}{Northwestern University}{}{}{}
 
 \end{document}
