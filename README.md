@@ -16,4 +16,5 @@ If you're having trouble compiling make sure you have all the necessary TeX pack
 
 Or Debian:
 
-    sudo apt-get install texlive-latex-extra texlive-fonts-recommended
+    sudo apt-get install texlive-latex-extra texlive-fonts-recommended texlive-fonts-extra
+
