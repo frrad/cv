@@ -3,7 +3,8 @@
 \moderncvtheme{classic}
 \usepackage[utf8]{inputenc}
 
-\usepackage[scale=.75]{geometry}          % smaller number -> text takes more space
+
+\usepackage[scale=.8]{geometry}          % smaller number -> text takes more space
 \AtBeginDocument{\recomputelengths}
 
 % Hyperlinks
@@ -27,22 +28,29 @@
 \vspace*{-7mm}
 
 \section{Employment}
+\cventry{2022-present}{Staff Machine Learning Engineer}{Stripe, Inc.}{Supportability Intelligence}{}{
+\begin{itemize}
+    \item{Tech Lead on a team of backend and machine learning engineers.} % Leadership
+    \item{Improved Terms of Service violation enforcement by more than $20\%$ with Large Language Models.} % MKB LLM
+    \item{Created centralized service to centralize information about merchant business models. } %MKB service
+    \item{Maintained transformers-based merchant website text classfication model. } %MKB service      
+\end{itemize}
+}
 \cventry{2017-2022}{Senior Applied Scientist}{Amazon AWS - Interactive Video Service}{Twitch}{}{
 \begin{itemize}
     \item{Mentored other applied scientists, leading to one being promoted.}
     \item{Designed, and productionized realtime machine learning model to optimize data center selection for video playback, reducing global video buffering rates by >1\%.} % QoS Predictions
     \item{Launched new machine learning service for predicting optimal video player settings.} % Zoltar
     \item{Created streaming fraud detection machine learning system, improving fraud detection by more than 75\% for problematic channels.} % Streaming Viewbots
-    \item{Implemented first mathematical-model based method for transcode server configuration, improving server hardware utilization by >5\%.} % Optimization
-    \item{Wrote production golang code for backend service serving >50k RPS.} % Engineering
+    \item{Implemented first mathematical-model based method for transcode server configuration, improving server hardware utilization by $>5\%$.} % Optimization
+    \item{Wrote production golang code for backend service serving $>50$k RPS.} % Engineering
 \end{itemize}
 }
 \cventry{2014-2017}{Software Engineer}{Google, Inc. - Display Ads}{Remarketing Quality}{}{
 \begin{itemize}
     \item{Developed end-to-end real-time bidding system calibrated by offline auction simulation.}
     \item{Built models to optimized advertiser ROI by learning advertiser-specific bidding strategies.}
-    \item{Implemented offline MapReduce-based training pipeline.}
-    \item{Wrote and maintained production pipeline and monitoring.}
+    \item{Wrote and maintained production mapreduce pipeline and monitoring.}
     \item{Enabled additional traffic expansion worth tens of millions in incremental annual revenue.}
     \item{Trained models to improve CTR on multi-product ads.}
 \end{itemize}
@@ -53,8 +61,7 @@
 \cvline{Skills}{Machine Learning, Data Science, Data Engineering}
 \cvline{Languages}{
   Golang,
-  Python,
-  C++
+  Python
 }
 
 \section{Education}
