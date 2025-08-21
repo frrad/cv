@@ -4,7 +4,7 @@
 \usepackage[utf8]{inputenc}
 
 
-\usepackage[scale=.8]{geometry}          % smaller number -> text takes more space
+\usepackage[scale=.85]{geometry}          % smaller number -> text takes more space
 \AtBeginDocument{\recomputelengths}
 
 % Hyperlinks
@@ -28,41 +28,47 @@
 \vspace*{-7mm}
 
 \section{Employment}
-\cventry{2022-present}{Staff Machine Learning Engineer}{Stripe, Inc.}{Supportability Intelligence}{}{
+
+
+\cventry{2024--2025}{Principal Applied Scientist (later Member of Technical Staff)}{Amazon SF AI Lab}{San Francisco, CA}{}{
 \begin{itemize}
-    \item{Tech Lead for a team of backend and machine learning engineers.} % Leadership
-    \item{Improved Terms of Service violation enforcement by more than $20\%$ with Large Language Models.} % MKB LLM
-    \item{Created new service to centralize information about merchant business models. } %MKB service
-    \item{Developed transformers-based merchant website text classfication model. } %multi-tos
+    \item{Early member of Amazon’s SF AI Lab, reestablishing infra and experimentation pipelines after Adept’s transition.}
+    \item{Founding member of the reinforcement learning group, setting up RLHF systems and advancing CoT/RLVR training.}
+    \item{Drove technical leadership through open-source contributions, mentoring, and engineering best practices.}
+\end{itemize}
+}
+
+\cventry{2024}{Member of Technical Staff}{Adept}{San Francisco, CA}{}{
+\begin{itemize}
+    \item{Improved reliability of computer-use agents by developing evaluation frameworks, data collection pipelines, and SFT experiments.}
+    \item{Worked across modeling, infra, and evaluation in a fast-paced startup environment.}
+    \item{Contributed foundational work that supported the team’s transition into Amazon.}
+\end{itemize}
+}
+
+\cventry{2022-2023}{Staff Machine Learning Engineer}{Stripe, Inc.}{Supportability Intelligence}{}{
+\begin{itemize}
+    \item{Led a cross-functional team of ML and backend engineers, delivering $>20\%$ improvement in Terms of Service violation enforcement with LLMs.}
+    \item{Developed a transformer-based merchant website text classification model and a new service centralizing merchant business model data.}
+    \item{Scoped and delivered ML-driven systems that improved Stripe’s risk intelligence and supportability.}
 \end{itemize}
 }
 \cventry{2017-2022}{Senior Applied Scientist}{Amazon AWS - Interactive Video Service}{Twitch}{}{
 \begin{itemize}
-    \item{Mentored other applied scientists, leading to one being promoted.}
-    \item{Designed, and productionized realtime machine learning model to optimize data center selection for video playback, reducing global video buffering rates by >1\%.} % QoS Predictions
-    \item{Launched new machine learning service for predicting optimal video player settings.} % Zoltar
-    \item{Created streaming fraud detection machine learning system, improving fraud detection by more than 75\% for problematic channels.} % Streaming Viewbots
-    \item{Implemented first mathematical-model based method for transcode server configuration, improving server hardware utilization by $>5\%$.} % Optimization
-    \item{Wrote production golang code for backend service serving $>50$k RPS.} % Engineering
+    \item{Designed and productionized ML models to optimize data center selection for video playback, reducing global buffering rates by  $>1\%$.}
+    \item{Created streaming fraud detection system, improving detection of viewbot activity by  $>75\%$.}
+    \item{Launched ML service predicting optimal video player settings and provided technical mentorship to applied scientists on research and engineering best practices.}
 \end{itemize}
 }
-\cventry{2014-2017}{Software Engineer}{Google, Inc. - Display Ads}{Remarketing Quality}{}{
+\cventry{2014--2017}{Software Engineer}{Google, Inc. -- Display Ads}{Remarketing Quality}{}{
 \begin{itemize}
-    \item{Developed end-to-end real-time bidding system calibrated by offline auction simulation.}
-    \item{Built models to optimized advertiser ROI by learning advertiser-specific bidding strategies.}
-    \item{Wrote and maintained production mapreduce pipeline and monitoring.}
-    \item{Enabled additional traffic expansion worth tens of millions in incremental annual revenue.}
-    \item{Trained models to improve CTR on multi-product ads.}
+    \item{Built ML models and real-time bidding systems that optimized advertiser ROI and unlocked tens of millions in incremental annual revenue.}
 \end{itemize}
 }
-\cventry{2012-2014}{Teaching Assistant}{University of California, Los Angeles}{}{}{}
 
 \section{Skills}
-\cvline{Skills}{Machine Learning, Data Science, Data Engineering}
-\cvline{Languages}{
-  Python,
-  Golang
-}
+\cvline{Skills}{Large Language Models, Reinforcement Learning (RLHF, CoT, RLVR), Supervised Fine-Tuning, Evaluation Frameworks, Distributed Training Systems, Data Collection Pipelines, Python, Golang}
+
 
 \section{Education}
 \cventry{2014}{Master of Arts in Mathematics}{University of California Los Angeles}{}{}{}
