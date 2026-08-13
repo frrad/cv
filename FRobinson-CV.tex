@@ -17,6 +17,7 @@
 \address{}{San Francisco, CA}
 \phone{(321) 613-8838}
 \email{frederick.robinson@gmail.com}
+\social[linkedin]{frrad}
 
 
 \nopagenumbers{}
@@ -31,41 +32,41 @@
 \section{Employment}
 
 
-\cventry{2024--2026}{Principal Applied Scientist (later Member of Technical Staff)}{Amazon SF AI Lab}{San Francisco, CA}{}{
+\cventry{2024--2026}{Principal Applied Scientist / Member of Technical Staff}{Amazon SF AI Lab}{}{}{
 \begin{itemize}
-    \item{Early member of Amazon’s SF AI Lab, reestablishing infra and experimentation pipelines after Adept’s transition.}
-    \item{Founding member of the reinforcement learning group, setting up RL systems and advancing CoT/RLVR training.}
-    \item{Built \href{https://github.com/amazon-agi-labs/turnstile}{Turnstile} (\href{https://www.amazon.science/blog/capturing-token-ids-during-agentic-interactions-for-better-reinforcement-learning}{Amazon Science}), an open-source proxy capturing token-level rollout data for agentic RL training.}
+    \item{Founding member of the reinforcement learning group, standing up RL training systems.}
+    \item{Built \href{https://github.com/amazon-agi-labs/turnstile}{Turnstile} (\href{https://www.amazon.science/blog/capturing-token-ids-during-agentic-interactions-for-better-reinforcement-learning}{Amazon Science}), an open-source Rust proxy capturing token-level rollout data from arbitrary black-box agent harnesses, with prefix-aware sequence collapsing and verified loss masks.}
+    \item{Reproduced verifier-free RL (VeriFree, RLPR) and located its failure boundary: rewards from reference-answer likelihood degrade once answers lengthen or admit paraphrase.}
+    \item{Drove data research for coding-agent RLVR post-training (SWE-bench, Terminal-bench): dataset ablations and offline difficulty calibration.}
 \end{itemize}
 }
 
-\cventry{2024}{Member of Technical Staff}{Adept}{San Francisco, CA}{}{
+\cventry{2024}{Member of Technical Staff}{Adept}{}{}{
 \begin{itemize}
     \item{Improved reliability of computer-use agents by developing evaluation frameworks, data collection pipelines, and SFT experiments.}
-    \item{Contributed foundational work that supported the team’s transition into Amazon.}
+    \item{Rebuilt agent data collection so labelers and the model shared one interface and code path, removing drift between collected demonstrations and agent behaviour.}
 \end{itemize}
 }
 
-\cventry{2022-2023}{Staff Machine Learning Engineer}{Stripe, Inc.}{Supportability Intelligence}{}{
+\cventry{2022--2023}{Staff Machine Learning Engineer}{Stripe, Inc. -- Supportability Intelligence}{}{}{
 \begin{itemize}
-    \item{Led an LLM-based enforcement initiative and a cross-functional team of ML and backend engineers, delivering $>20\%$ improvement in Terms of Service violation detection.}
-    \item{Developed a transformer-based merchant website text classification model and a new service centralizing merchant business model data.}
+    \item{Trained a transformer classifier over merchant website text, and led an LLM-based enforcement initiative and cross-functional team delivering $>20\%$ improvement in Terms of Service violation detection.}
 \end{itemize}
 }
-\cventry{2017-2022}{Senior Applied Scientist}{Amazon AWS - Interactive Video Service}{Twitch}{}{
+\cventry{2017--2022}{Senior Applied Scientist}{Twitch (Amazon AWS Interactive Video Service)}{}{}{
 \begin{itemize}
-    \item{Designed and productionized ML models to optimize data center selection for video playback, reducing global buffering rates by  $>1\%$.}
-    \item{Built a streaming fraud detection system that improved viewbot detection by $>75\%$, and mentored applied scientists on ML research and engineering best practices.}
+    \item{Tech lead for Video Intelligence. Built production ML at scale for data center selection ($>1\%$ global buffering reduction) and real-time viewbot detection ($>75\%$).}
 \end{itemize}
 }
-\cventry{2014--2017}{Software Engineer}{Google, Inc. -- Display Ads}{Remarketing Quality}{}{
+\cventry{2014--2017}{Software Engineer}{Google, Inc. -- Display Ads, Remarketing Quality}{}{}{
 \begin{itemize}
-    \item{Built ML models and real-time bidding systems that optimized advertiser ROI and unlocked tens of millions in incremental annual revenue.}
+    \item{Built ML and real-time bidding systems unlocking tens of millions in annual revenue.}
 \end{itemize}
 }
 
 \section{Skills}
-\cvline{Skills}{Large Language Models, Reinforcement Learning (RLHF, CoT, RLVR), Supervised Fine-Tuning, Evaluation Frameworks, Distributed Training Systems, Data Collection Pipelines, Python, Golang}
+\cvline{ML}{Large Language Models, Reinforcement Learning (CoT, RLVR), Supervised Fine-Tuning, Evaluation Frameworks, Distributed Training Systems, Data Collection Pipelines}
+\cvline{Tools}{PyTorch, slime, SGLang, Python, Golang}
 
 
 \section{Education}

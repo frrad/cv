@@ -1,3 +1,3 @@
 FRobinson-CV.pdf: FRobinson-CV.tex
-	pdflatex FRobinson-CV.tex
+	tectonic FRobinson-CV.tex
 
